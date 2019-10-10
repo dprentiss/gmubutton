@@ -7,7 +7,7 @@
 	"permissions": ["tabs"],
 	"browser_action": {
 		"default_icon": {
-			"32": "search-icon.png"
+			"32": "favicons.png"
 		}
 	},
 
