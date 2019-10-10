@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "GMU Button",
+	"version": "0.1",
+
+	"description": "Prepends a url with the GMU Library off-campus access prefix",
+	"permissions": ["tabs"],
+	"browser_action": {
+		"default_icon": {
+			"32": "search-icon.png"
+		}
+	},
+
+	"background": {
+		"scripts": ["gmubutton.js"],
+		"persistent": false
+	}
+}
